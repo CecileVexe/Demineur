@@ -1,0 +1,42 @@
+div {
+   
+    justify-content: center;
+}
+
+.dialog {
+     display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(181, 41, 181);;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+td.revealed {
+    background-color: rgb(226, 67, 226);
+    cursor: default;
+}
+
+.mined {
+    background-image: url(./../../images/kboom.png);
+background-size: contain;
+}
+
+.flagged {
+    background-image: url(./../../images/flag.png);
+    background-size: contain;
+}
